@@ -143,6 +143,10 @@ h3.box-title {
     text-transform: uppercase;
 }
 
+.product-list {
+    margin-bottom: 50px;
+}
+
 .product-item {
     position: relative;
 }
@@ -166,7 +170,7 @@ h3.box-title {
 
 .product-item .image .wishlist {
     position: absolute;
-    bottom: 135px;
+    top: 200px;
     right: 25px;
     display: none;
 }
@@ -229,5 +233,71 @@ h3.box-title {
     background: #f2532f;
     padding-top: 5px;
     margin-right: 10px;
+}
+
+/* about */
+.about {
+    margin-bottom: 30px;
+}
+
+.form-about {
+    background: #2e2f33;
+    height: 157px;
+    padding: 20px 10px 0px 25px;
+}
+.about-w {
+    padding-right: 0px;
+}
+
+.form-about h3 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.form-about a {
+    background: #000;
+    color: #fff;
+}
+
+.shop-about {
+    border: 1px solid #e1e1e1;
+    height: 157px;
+}
+
+.shop-about p {
+    padding-top: 10px;
+    font-size: 13px;
+    text-align: justify;
+    line-height: 2;
+}
+
+/* news */
+.news-item span {
+    display: block;
+    font-size: 18px;
+}
+
+.news-item h2 a {
+    color: #000000;
+    font-size: 16px;
+}
+
+.news-item h2 a:hover {
+    color: #f2532f;
+}
+
+.news-item .excerpt {
+    padding: 10px 0px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #818181;
+    text-align: justify;
+}
+
+.news-item .read-more {
+    font-size: 12px;
+    color: #f2532f;
 }
 
