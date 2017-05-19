@@ -80,3 +80,44 @@
     background: #f2532f;
     margin-top: -3px;
 }
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    background: none;
+}
+
+/* main-nav */
+.main-nav {
+    background: #1e1e21;
+}
+
+.main-nav li a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px 15px 17px 15px;
+    border-top: 5px solid #1e1e21;
+    text-transform: uppercase;
+}
+
+.main-nav li a:hover, .main-nav li.active a:hover {
+    color: #000;
+    border-radius: 0px;
+    border-color: #f2532f;
+    background: #fff;
+}
+
+.main-nav li.dropdown ul.dropdown-menu li a {
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 0px;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 10px;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+}
+
